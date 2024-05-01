@@ -1,16 +1,16 @@
 html{
- scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 body{
     margin: 0;
-    background-color: white;
+    background-color: #070F2B;
 }
 section{
     min-height: 95vh;
 }
 .hero{
-    background-color: white;
-    color: black;
+    background-color:#070F2B;
+    color: #9290C3;
     display: flex;
 }
 .korobka{
@@ -19,14 +19,22 @@ section{
     align-items: center;
     width: 50%;
     height: 95vh;
+    margin: 15px
 }
 .korobka2{
     display: flex;
     justify-content: center;
     align-items: end;
+    height: 95vh;
+    margin: 15px
+}
+.korobka3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 50%;
     height: 95vh;
-
+    margin: 15px
 }
 h1{
     margin: 0;
@@ -42,6 +50,7 @@ h3{
 }
 .textcenter{
     text-align: center;
+    color: #9290C3;
 }
 
 img{
@@ -67,13 +76,16 @@ input{
 #aboutme{
     padding: 50px;
     color:#074173;
-    background-color: #C5FF95;
+    background-color: #070F2B;
     position: relative;
     z-index: 3;
 }
 .m50{
     margin: 50px;
 }
+
+
+/* Все про меню */
 .logo{
     font-size: 30px;
     text-decoration: none;
@@ -87,16 +99,16 @@ input{
     color: #C5FF95;
 }
 nav{
-    border: 1px solid black ;
-    margin: 20px 50px;
-    border-radius: 50px;
-    width: calc(100% - 100px);
-    color: black;
-    background-color:white;
+    z-index: 7;
+    position: fixed;
+    margin: 0;
+    background-color: #070F2B;
+    box-shadow: 2px 0 5px 0px black;
     display: flex;
     align-items: center;
-    height: 60px;
-    /*position: fixed;*/
+    padding: 0 50px;
+    height: 80px;
+    width: 100%;
 }
 .right{
     position: absolute;
@@ -104,13 +116,33 @@ nav{
 }
 .btn{
     padding: 10px 30px;
-    background-color: #FFF455;
+    background-color: #070F2B;
     border-radius: 30px;
     color: black;
 }
+
+
+/*Все про пятно*/
+.piatno{
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    top: 500px;
+    left: 75%;
+    box-shadow: 0px 0px 300px 300px #9bb3c7 ;
+}
+img{
+    z-index: 2;
+}
+
+/*Все про блог*/
+#myblog{
+    padding: 150px 0;
+}
 .card{
     width: 500px;
-    background-color: white;
+    background-color: #070F2B;
     padding: 50px ;
     border-radius: 30px;
 }
@@ -129,3 +161,34 @@ nav{
 .w80{
     width: 80%;
 }
+.chiutnizhe{
+    margin-top: 450px;
+}
+.marg{
+	margin: 20px;
+}
+.marg2{
+	margin: 200px;
+}
+.col{
+	color: #9290C3; 
+}
+.prizrak{
+    width: 80px;
+    position: absolute;
+}
+.top200{
+    top: 200px;
+}
+.top300{
+    top: 300px;
+}
+.top400{
+    top: 400px;
+}
+.top500{
+    top: 500px;
+}
+.top600{
+    top: 600px;
+}    
