@@ -3,14 +3,14 @@ html{
 }
 body{
     margin: 0;
-    background-color: #070F2B;
+    background-color: #E8DFCA;
 }
 section{
     min-height: 95vh;
 }
 .hero{
-    background-color:#070F2B;
-    color: #9290C3;
+    background-color:#E8DFCA;
+    color: #4F6F52;
     display: flex;
 }
 .korobka{
@@ -50,7 +50,7 @@ h3{
 }
 .textcenter{
     text-align: center;
-    color: #9290C3;
+    color: #4F6F52;
 }
 
 img{
@@ -76,16 +76,13 @@ input{
 #aboutme{
     padding: 50px;
     color:#074173;
-    background-color: #070F2B;
+    background-color: #E8DFCA;
     position: relative;
     z-index: 3;
 }
 .m50{
     margin: 50px;
 }
-
-
-/* Все про меню */
 .logo{
     font-size: 30px;
     text-decoration: none;
@@ -102,7 +99,7 @@ nav{
     z-index: 7;
     position: fixed;
     margin: 0;
-    background-color: #070F2B;
+    background-color: #1A4D2E;
     box-shadow: 2px 0 5px 0px black;
     display: flex;
     align-items: center;
@@ -116,13 +113,10 @@ nav{
 }
 .btn{
     padding: 10px 30px;
-    background-color: #070F2B;
+    background-color: #E8DFCA;
     border-radius: 30px;
     color: black;
 }
-
-
-/*Все про пятно*/
 .piatno{
     z-index: 1;
     position: absolute;
@@ -135,14 +129,12 @@ nav{
 img{
     z-index: 2;
 }
-
-/*Все про блог*/
 #myblog{
     padding: 150px 0;
 }
 .card{
     width: 500px;
-    background-color: #070F2B;
+    background-color: #E8DFCA;
     padding: 50px ;
     border-radius: 30px;
 }
@@ -171,7 +163,7 @@ img{
 	margin: 200px;
 }
 .col{
-	color: #9290C3; 
+	color: #4F6F52; 
 }
 .prizrak{
     width: 80px;
